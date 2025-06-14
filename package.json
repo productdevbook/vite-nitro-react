@@ -1,0 +1,15 @@
+{
+  "name": "vite-nitro-react",
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "app",
+    "server"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
