@@ -6,6 +6,11 @@
     "app",
     "server"
   ],
+  "scripts": {
+    "dev": "bun --filter '*' dev",
+    "build": "bun --filter '*' build",
+    "preview": "bun --filter '*' preview"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
